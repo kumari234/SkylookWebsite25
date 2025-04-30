@@ -1,0 +1,131 @@
+/* ===== Skylook Developers - Brand Styling ===== */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #2d2d2d;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Header */
+.main-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.main-nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0a4a77;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #f58220;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #c3f0b4, #e3f6ff);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  color: #0a4a77;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #444;
+}
+
+.btn-primary {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+}
+
+/* Highlights */
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.highlight-box {
+  flex: 1;
+  margin: 15px;
+  min-width: 260px;
+  background: #ecf9f2;
+  padding: 25px;
+  border-left: 6px solid #2ecc71;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.highlight-box h3 {
+  color: #0a4a77;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #0a4a77;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95rem;
+}
+
+/* Transparent Background Logo - Highlighted but Subtle */
+.background-logo {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.15;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.background-logo img {
+  width: 350px;
+  height: auto;
+  opacity: 0.1;
+  filter: blur(5px);
+}
+
